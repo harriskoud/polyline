@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/charidimoskoudoumas/CLionProjects/set2/Polyline.h
+iostream
+-
+cmath
+-
+fstream
+-
+
+/Users/charidimoskoudoumas/CLionProjects/set2/main.cpp
+iostream
+-
+Polyline.h
+/Users/charidimoskoudoumas/CLionProjects/set2/Polyline.h
+
